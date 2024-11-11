@@ -1,24 +1,25 @@
 {
     "name": "koma/simple-hong-kong-holiday",
     "description": "simple hong kong holiday for laravel",
-    "require": {
-        "php": "^8.1",
-        "ext-curl": "*"
-    },
-    "require-dev": {
-    },
+    "keywords": ["laravel"],
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Koma\\SimpleHongKongHoliday\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "koma",
             "email": "komaxd520@gmail.com"
         }
     ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Koma\\SimpleHongKongHoliday\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
