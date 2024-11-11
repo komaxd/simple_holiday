@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Koma\\SimpleHongKongHoliday\\src\\SimpleHongKongHolidayServiceProvider"
+                "src/SimpleHongKongHolidayServiceProvider"
             ]
         }
     }
