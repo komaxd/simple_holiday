@@ -18,5 +18,12 @@
             "name": "koma",
             "email": "komaxd520@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Koma\\SimpleHongKongHoliday\\src\\SimpleHongKongHolidayServiceProvider"
+            ]
+        }
+    }
 }
